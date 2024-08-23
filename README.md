@@ -1,7 +1,3 @@
-Here's an updated README based on your setup instructions:
-
----
-
 # Setting Up the Application
 
 After downloading/cloning the repository, follow these steps to set up the project:
@@ -49,5 +45,3 @@ After downloading/cloning the repository, follow these steps to set up the proje
    - Open the URL provided by the frontend server in your browser.
 
 ## All set! Happy coding :)
-
----
