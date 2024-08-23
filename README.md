@@ -1,36 +1,53 @@
-# FullStack Blog App with React Redux and Django
-A Fullstack CRUD Blog App with Django User Authentication (Token Authentication), Technologies Used: React, Redux, Django, REST Framework, Knox, HTML, CSS, Bootstrap and Fontawesome
- 
-# Aplication Preview
+Here's an updated README based on your setup instructions:
 
-## Login Page
-<img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/login%20page.png">
+---
 
-## Register Page
-<img src = "https://github.com/YashMarmat/Pages-App-django/blob/master/templates/register%20page.png" >
+# Setting Up the Application
 
-## All Blogs Page
-<img src = "https://github.com/YashMarmat/Pages-App-django/blob/master/templates/all%20blogs%20page.png">
+After downloading/cloning the repository, follow these steps to set up the project:
 
-## Blog Page
-<img src = "https://github.com/YashMarmat/Pages-App-django/blob/master/templates/content%20page.png">
+1. **Backend Setup:**
 
-# Setting up the Application
+   - Open a terminal and navigate to the `backend` directory:
+     ```bash
+     cd backend
+     ```
+   - Create and activate a Python virtual environment:
+     ```bash
+     python -m venv env
+     ./env/Scripts/activate
+     ```
+   - Install the required Python packages:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Run database migrations:
+     ```bash
+     python manage.py migrate
+     ```
+   - Start the Django development server:
+     ```bash
+     python manage.py runserver
+     ```
 
-after downloading/cloning the repository code follow below steps (keep the whole code in some directory/folder first):
+2. **Frontend Setup:**
 
-1) Move in backend folder through terminal and run following commands
+   - Open a second terminal and navigate to the `frontend` directory:
+     ```bash
+     cd frontend
+     ```
+   - Install the necessary Node.js packages:
+     ```bash
+     npm install
+     ```
+   - Start the frontend development server:
 
-`pipenv install`
+     ```bash
+     npm run server
+     ```
 
-`pipenv shell`
+   - Open the URL provided by the frontend server in your browser.
 
-`python manage.py runserver`
+## All set! Happy coding :)
 
-2) Move in frontend folder through terminal and run follwing commands
-
-`npm i`
-
-`npm start`
-
-## All set ! Happy coding :)
+---
